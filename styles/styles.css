@@ -83,6 +83,24 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+  #imgfranklinandme {
+    background-image: url("../img/franklinandme_tiny.jpg");
+    width: 150px;
+    height: 188px;
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imggreenblanket {
+    background-image: url("../img/green_blanket_tiny.jpg");
+    width: 200px;
+    height: 254px;
+    /* background-color: yellow; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -110,6 +128,24 @@ footer {
     background-image: url("../img/logcabin_small.jpg");
     width: 100px;
     height: 100px;
+    /* background-color: orange; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgfranklinandme {
+    background-image: url("../img/franklinandme_small.jpg");
+    width: 200px;
+    height: 250px;
+    /* background-color: orange; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imggreenblanket {
+    background-image: url("../img/green_blanket_small.jpg");
+    width: 250px;
+    height: 317px;
     /* background-color: orange; */
     background-repeat: no-repeat;
     margin-right: auto;
@@ -147,6 +183,24 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+  #imgfranklinandme {
+    background-image: url("../img/franklinandme_small.jpg");
+    width: 200px;
+    height: 250px;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imggreenblanket {
+    background-image: url("../img/green_blanket_small.jpg");
+    width: 250px;
+    height: 317px;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -179,6 +233,23 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+  #imgfranklinandme {
+    background-image: url("../img/franklinandme_large.jpg");
+    width: 300px;
+    height: 375px;
+    /* background-color: green; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imggreenblanket {
+    background-image: url("../img/green_blanket_large.jpg");
+    width: 300px;
+    height: 381px;
+    /* background-color: green; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -211,6 +282,23 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
+  #imgfranklinandme {
+    background-image: url("../img/franklinandme_large.jpg");
+    width: 300px;
+    height: 375px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imggreenblanket {
+    background-image: url("../img/green_blanket_large.jpg");
+    width: 300px;
+    height: 381px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Bootstrap CSS for forms from Bootstrap link reference signin.css */
