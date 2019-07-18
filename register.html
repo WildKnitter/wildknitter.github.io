@@ -35,7 +35,7 @@
                     <a class="nav-link" href="login.html">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="Register.html">Register<span class="sr-only">(current)</span></a>
+                    <a class="nav-link disabled" href="register.html">Register<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
@@ -66,78 +66,85 @@
             <div class="col-md-4">
                 <!--Login Form-->
                 <form method="get" action="login.html" class="form-signin">
-                <!-- post would be the correct method, normally.
+                    <!-- post would be the correct method, normally.
                 <form method="post" action="login.html" class="form-signin">
                 -->
                     <h1 class="h3 mb-3 font-weight-normal"><strong>Register Here!</strong></h1>
                     <p><strong>Join all the crafting fun that everyone is talking about!</strong></p>
 
                     <label for="userName"><strong>Who are you?</strong> Choose User Name (8-20 characters): </label>
-                    <input type="text" id="userName" name="userName" class="form-control" placeholder="User Name" required autofocus>
+                    <input type="text" id="userName" name="userName" class="form-control" placeholder="User Name"
+                        required autofocus>
                     <br />
 
                     <label for="inputPassword">Password: </label>
-                    <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required>
+                    <input type="password" id="inputPassword" name="inputPassword" class="form-control"
+                        placeholder="Password" required>
                     <br />
 
                     <label for="inputConfirmPassword">Confirm Password: </label>
-                    <input type="password" id="inputConfirmPassword" name="inputConfirmPassword" class="form-control" placeholder="Password"
-                        required>
+                    <input type="password" id="inputConfirmPassword" name="inputConfirmPassword" class="form-control"
+                        placeholder="Password" required>
                     <br />
 
                     <label for="inputEmail">Email address: </label>
-                    <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="name@email.com" required>
+                    <input type="email" id="inputEmail" name="inputEmail" class="form-control"
+                        placeholder="name@email.com" required>
                     <br />
 
                     <div class="checkbox mb-3">
                         <label>
-                            <input type="checkbox" value="remember-me"> Remember me
+                            <input type="checkbox" name="RememberMeCheckbox" id="RememberMeCheckbox"
+                                value="remember-me"> Remember me
                         </label>
                     </div>
 
                     <h4>Preferred Crafts</h4>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="defaultCheck1">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
+                            name="defaultCheck1">
                         <label class="form-check-label" for="defaultCheck1">
                             Knitting
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" name="defaultCheck2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2"
+                            name="defaultCheck2">
                         <label class="form-check-label" for="defaultCheck2">
                             Crocheting
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" name="defaultCheck3">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3"
+                            name="defaultCheck3">
                         <label class="form-check-label" for="defaultCheck3">
                             Other:
                         </label>
                     </div>
-                    <input type="text" name="text" />
+                    <input type="text" name="text" id="othertext" />
 
                     <br /><br />
-                    
+
                     <div>
                         <h4>How did you hear about us?</h4>
-                        <input type="radio" name="friend" value="friend" checked> Friend
+                        <input type="radio" name="optradio" id="friend" checked> Friend
                         <br />
-                        <input type="radio" name="internetsearch" value="internetsearch"> Internet Search
+                        <input type="radio" name="optradio" id="internet"> Internet Search
                         <br />
-                        <input type="radio" name="Other" value="Other"> Other:
+                        <input type="radio" name="optradio" id="other"> Other:
                     </div>
-                    <input type="text" name="text" />
+                    <input type="text" name="text" id="othertext2" />
 
                     <div id="buttongroup" class="container">
                         <br />
                         <button class="btn btn-sm btn-purple" type="submit">Submit</button>
-                        <button class="btn btn-sm btn-light" type="reset">Reset</button>
+                        <button class="btn btn-sm btn-light" id="resetBtn" type="reset">Reset</button>
                         <br />
                     </div>
                 </form>
                 <!--Login Form End-->
             </div>
-            <div class="col-md-4" id="imgredcabledscarf">
+            <div class="col-md-4" id="imgcabledscarf">
             </div>
         </div>
         <!-- 3 columns end -->

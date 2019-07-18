@@ -10,6 +10,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <!-- External CSS -->
     <link rel="stylesheet" href="styles/styles.css" />
 
@@ -35,7 +39,7 @@
                     <a class="nav-link disabled" href="login.html">Login<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Register.html">Register</a>
+                    <a class="nav-link" href="register.html">Register</a>
                 </li>
             </ul>
         </div>
@@ -65,7 +69,7 @@
             </div>
             <div class="col-md-4">
                 <!--Login Form-->
-                <form method="get" action="userinteraction.html" class="form-signin">
+                <form id="loginForm" method="get" action="userinteraction.html" class="form-signin">
                     <!-- post would be the correct method, normally.
                 <form method="post" action="patterns.html" class="form-signin">
                 -->
@@ -74,22 +78,23 @@
 
                     <label for="userName">User Name: </label>
                     <input type="text" id="userName" name="userName" class="form-control" placeholder="User Name"
-                        required autofocus>
+                        autofocus>
                     <br />
 
                     <label for="inputPassword">Password: </label>
                     <input type="password" id="inputPassword" name="inputPassword" class="form-control"
-                        placeholder="Password" required>
+                        placeholder="Password">
 
                     <div class="checkbox mb-3">
                         <label>
-                            <input type="checkbox" value="remember-me"> Remember me
+                            <input type="checkbox" value="remember-me" id="remembermecheckbox"
+                                name="remembermecheckbox"> Remember me
                         </label>
                     </div>
 
                     <div id="buttongroup" class="container">
                         <button class="btn btn-sm btn-purple" type="submit">Submit</button>
-                        <button class="btn btn-sm btn-light" type="reset">Reset</button>
+                        <button class="btn btn-sm btn-light" id="resetBtn" type="reset">Reset</button>
                     </div>
                     <br />
                     <p><strong>Don't have an account yet?</strong></p>
@@ -101,10 +106,20 @@
                 </form>
                 <!--Login Form End-->
             </div>
-            <div class="col-md-4" id="imgredcabledscarf">
+            <div class="col-md-4" id="imgcabledscarf">
             </div>
         </div>
-
+        <!-- Alerts modified from Bootstrap v4 Component example -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-success hidden" role="alert" id="successMsg">
+                    <i class="fa fa-unlock-alt" aria-hidden="true"></i> You are logged in!
+                </div>
+                <div class="alert alert-danger hidden" role="alert" id="dangerMsg">
+                    <i class="fa fa-lock" aria-hidden="true"></i> Login unsuccessful-Try again!
+                </div>
+            </div>
+        </div>
         <!-- 3 columns end -->
     </div> <!-- /container end-->
 
@@ -124,6 +139,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript-->
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>

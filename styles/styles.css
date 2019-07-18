@@ -1,5 +1,10 @@
 /* This is an additional stylesheet for WildKnitter site*/
 
+/* Hide Success and Danger Msg Elements on page load */
+.hidden {
+  display: none;
+}
+
 /* Stylesheet code from the Bootstrap Jumbotron template */
 
 .bd-placeholder-img {
@@ -33,9 +38,9 @@ header {
 }
 
 body {
-  background-color: lavender; 
+  background-color: lavender;
   height: 100%;
-  background-image: radial-gradient(white, lavender, #DCD0E5); 
+  background-image: radial-gradient(white, lavender, #DCD0E5);
 }
 
 /* Formatting for the Footer */
@@ -54,6 +59,7 @@ footer {
 }
 
 /* Change button color */
+
 .btn-purple {
   color: #fff;
   background-color: purple;
@@ -66,6 +72,7 @@ footer {
 }
 
 /* Change the background stripe color for the Shopping Cart table */
+
 tr:nth-child(even) {
   background-color: #DCD0E5;
 }
@@ -81,23 +88,23 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarf {
-    background-image: url("../img/redcabledscarf_tiny.jpg");
+  #imgcabledscarf {
+    background-image: url("../img/cabledscarf_tiny.jpg");
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
-   #imgredcabledscarfprice {
-    background-image: url("../img/redcabledscarf_small.jpg");
+  /* Images for the Patterns Page */
+  #imgcabledscarfprice {
+    background-image: url("../img/cabledscarf_small.jpg");
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
-
   #imgspecialolympicsscarfprice {
     background-image: url("../img/blueandlightbluescarf_small.jpg");
     width: 200px;
@@ -105,7 +112,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-  }  
+  }
   #imgbabymittensprice {
     background-image: url("../img/babymittens_small.jpg");
     width: 200px;
@@ -121,7 +128,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-  }   
+  }
   #imgcropatchblkprice {
     background-image: url("../img/cropatchblk_small.jpg");
     width: 200px;
@@ -129,7 +136,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-  }    
+  }
   #imgmulticolorcrochetscarfprice {
     background-image: url("../img/multicolorcrochetscarf_small.jpg");
     width: 200px;
@@ -137,8 +144,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-  }  
-
+  }
   /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_tiny.jpg");
@@ -177,16 +183,17 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarf {
-    background-image: url("../img/redcabledscarf_small.jpg");
+  #imgcabledscarf {
+    background-image: url("../img/cabledscarf_small.jpg");
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarfprice {
-    background-image: url("../img/redcabledscarf_tiny.jpg");
+  /* Images for the Patterns Page */
+  #imgcabledscarfprice {
+    background-image: url("../img/cabledscarf_tiny.jpg");
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;
@@ -233,7 +240,6 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-
   /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_small.jpg");
@@ -272,16 +278,17 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarf {
-    background-image: url("../img/redcabledscarf_small.jpg");
+  #imgcabledscarf {
+    background-image: url("../img/cabledscarf_small.jpg");
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarfprice {
-    background-image: url("../img/redcabledscarf_tiny.jpg");
+  /* Images for the Patterns Page */
+  #imgcabledscarfprice {
+    background-image: url("../img/cabledscarf_tiny.jpg");
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;
@@ -303,7 +310,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-  } 
+  }
   #imglogcabinprice {
     background-image: url("../img/logcabin_tiny.jpg");
     width: 100px;
@@ -319,7 +326,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-  }  
+  }
   #imgmulticolorcrochetscarfprice {
     background-image: url("../img/multicolorcrochetscarf_tiny.jpg");
     width: 100px;
@@ -327,8 +334,7 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
-  }  
-  
+  }
   /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
@@ -367,16 +373,17 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarf {
-    background-image: url("../img/redcabledscarf_large.jpg");
+  #imgcabledscarf {
+    background-image: url("../img/cabledscarf_large.jpg");
     width: 300px;
     height: 300px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarfprice {
-    background-image: url("../img/redcabledscarf_small.jpg");
+  /* Images for the Patterns Page */
+  #imgcabledscarfprice {
+    background-image: url("../img/cabledscarf_small.jpg");
     width: 200px;
     height: 200px;
     background-repeat: no-repeat;
@@ -423,7 +430,6 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-
   /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
@@ -462,16 +468,17 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarf {
-    background-image: url("../img/redcabledscarf_large.jpg");
+  #imgcabledscarf {
+    background-image: url("../img/cabledscarf_large.jpg");
     width: 300px;
     height: 300px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
-  #imgredcabledscarfprice {
-    background-image: url("../img/redcabledscarf_large.jpg");
+  /* Images for the Patterns Page */
+  #imgcabledscarfprice {
+    background-image: url("../img/cabledscarf_large.jpg");
     width: 300px;
     height: 300px;
     background-repeat: no-repeat;
@@ -518,8 +525,7 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-left: auto;
   }
-
-  /* Other Site Images */ 
+  /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
     width: 300px;
@@ -554,9 +560,11 @@ tr:nth-child(even) {
   padding: 15px;
   margin: auto;
 }
+
 .form-signin .checkbox {
   font-weight: 400;
 }
+
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
@@ -564,19 +572,23 @@ tr:nth-child(even) {
   padding: 10px;
   font-size: 16px;
 }
+
 .form-signin .form-control:focus {
   z-index: 2;
 }
+
 .form-signin input[type="userName"] {
   margin-bottom: 10px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
 .form-signin input[type="email"] {
   margin-bottom: 10px;
   border-bottom-right-radius: 0;
