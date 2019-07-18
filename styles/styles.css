@@ -33,9 +33,9 @@ header {
 }
 
 body {
-  background-color: lavender;
+  background-color: lavender; 
   height: 100%;
-  background-image: radial-gradient(white, lavender, #DCD0E5);
+  background-image: radial-gradient(white, lavender, #DCD0E5); 
 }
 
 /* Formatting for the Footer */
@@ -53,6 +53,23 @@ footer {
   text-decoration: underline;
 }
 
+/* Change button color */
+.btn-purple {
+  color: #fff;
+  background-color: purple;
+  border-color: rgb(119, 2, 119);
+}
+
+.btn-margin {
+  margin: auto;
+  display: inline;
+}
+
+/* Change the background stripe color for the Shopping Cart table */
+tr:nth-child(even) {
+  background-color: #DCD0E5;
+}
+
 /* Extra-Small devices (landscape phones, 576px and down) */
 
 @media (max-width: 576px) {
@@ -60,7 +77,6 @@ footer {
     background-image: url("../img/knittedgloves_tiny.jpg");
     width: 100px;
     height: 100px;
-    /* background-color: yellow; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -69,16 +85,65 @@ footer {
     background-image: url("../img/redcabledscarf_tiny.jpg");
     width: 100px;
     height: 100px;
-    /* background-color: yellow; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
+   #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }  
+  #imgbabymittensprice {
+    background-image: url("../img/babymittens_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imglogcabinprice {
+    background-image: url("../img/logcabin_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }   
+  #imgcropatchblkprice {
+    background-image: url("../img/cropatchblk_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }    
+  #imgmulticolorcrochetscarfprice {
+    background-image: url("../img/multicolorcrochetscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }  
+
+  /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_tiny.jpg");
-    width: 60px;
-    height: 60px;
-    /* background-color: yellow; */
+    width: 100px;
+    height: 100px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -87,7 +152,6 @@ footer {
     background-image: url("../img/franklinandme_tiny.jpg");
     width: 150px;
     height: 188px;
-    /* background-color: yellow; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -96,7 +160,6 @@ footer {
     background-image: url("../img/green_blanket_tiny.jpg");
     width: 200px;
     height: 254px;
-    /* background-color: yellow; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -110,7 +173,6 @@ footer {
     background-image: url("../img/knittedgloves_small.jpg");
     width: 200px;
     height: 200px;
-    /* background-color: orange; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -119,16 +181,64 @@ footer {
     background-image: url("../img/redcabledscarf_small.jpg");
     width: 200px;
     height: 200px;
-    /* background-color: orange; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
-  #imglogcabin {
-    background-image: url("../img/logcabin_small.jpg");
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_tiny.jpg");
     width: 100px;
     height: 100px;
-    /* background-color: orange; */
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgbabymittensprice {
+    background-image: url("../img/babymittens_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imglogcabinprice {
+    background-image: url("../img/logcabin_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgcropatchblkprice {
+    background-image: url("../img/cropatchblk_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgmulticolorcrochetscarfprice {
+    background-image: url("../img/multicolorcrochetscarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Other Site Images */
+  #imglogcabin {
+    background-image: url("../img/logcabin_small.jpg");
+    width: 200px;
+    height: 200px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -137,7 +247,6 @@ footer {
     background-image: url("../img/franklinandme_small.jpg");
     width: 200px;
     height: 250px;
-    /* background-color: orange; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -146,7 +255,6 @@ footer {
     background-image: url("../img/green_blanket_small.jpg");
     width: 250px;
     height: 317px;
-    /* background-color: orange; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -160,7 +268,6 @@ footer {
     background-image: url("../img/knittedgloves_small.jpg");
     width: 200px;
     height: 200px;
-    /* background-color: blue; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -169,16 +276,64 @@ footer {
     background-image: url("../img/redcabledscarf_small.jpg");
     width: 200px;
     height: 200px;
-    /* background-color: blue; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgbabymittensprice {
+    background-image: url("../img/babymittens_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  } 
+  #imglogcabinprice {
+    background-image: url("../img/logcabin_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgcropatchblkprice {
+    background-image: url("../img/cropatchblk_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }  
+  #imgmulticolorcrochetscarfprice {
+    background-image: url("../img/multicolorcrochetscarf_tiny.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }  
+  
+  /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
-    width: 219px;
-    height: 219px;
-    /* background-color: blue; */
+    width: 300px;
+    height: 300px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -187,7 +342,6 @@ footer {
     background-image: url("../img/franklinandme_small.jpg");
     width: 200px;
     height: 250px;
-    /* background-color: blue; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -196,7 +350,6 @@ footer {
     background-image: url("../img/green_blanket_small.jpg");
     width: 250px;
     height: 317px;
-    /* background-color: blue; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -210,7 +363,6 @@ footer {
     background-image: url("../img/knittedgloves_large.jpg");
     width: 300px;
     height: 300px;
-    /* background-color: green; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -219,16 +371,64 @@ footer {
     background-image: url("../img/redcabledscarf_large.jpg");
     width: 300px;
     height: 300px;
-    /*background-color: green; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgbabymittensprice {
+    background-image: url("../img/babymittens_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imglogcabinprice {
+    background-image: url("../img/logcabin_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgcropatchblkprice {
+    background-image: url("../img/cropatchblk_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgmulticolorcrochetscarfprice {
+    background-image: url("../img/multicolorcrochetscarf_small.jpg");
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Other Site Images */
   #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
-    width: 219px;
-    height: 219px;
-    /*background-color: green; */
+    width: 300px;
+    height: 300px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -237,7 +437,6 @@ footer {
     background-image: url("../img/franklinandme_large.jpg");
     width: 300px;
     height: 375px;
-    /* background-color: green; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -246,10 +445,10 @@ footer {
     background-image: url("../img/green_blanket_large.jpg");
     width: 300px;
     height: 381px;
-    /* background-color: green; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -257,9 +456,8 @@ footer {
 @media (min-width: 1200px) {
   #imgknittedgloves {
     background-image: url("../img/knittedgloves_large.jpg");
-    width: 300px !important;
-    height: 300px !important;
-    /* background-color: red; */
+    width: 300px;
+    height: 300px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -268,16 +466,64 @@ footer {
     background-image: url("../img/redcabledscarf_large.jpg");
     width: 300px;
     height: 300px;
-    /* background-color: red; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
   }
+  #imgredcabledscarfprice {
+    background-image: url("../img/redcabledscarf_large.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgspecialolympicsscarfprice {
+    background-image: url("../img/blueandlightbluescarf_large.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgbabymittensprice {
+    background-image: url("../img/babymittens_large.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imglogcabinprice {
+    background-image: url("../img/logcabin_large.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgcropatchblkprice {
+    background-image: url("../img/cropatchblk_large.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #imgmulticolorcrochetscarfprice {
+    background-image: url("../img/multicolorcrochetscarf_large.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Other Site Images */ 
   #imglogcabin {
     background-image: url("../img/logcabin_large.jpg");
-    width: 219px;
-    height: 219px;
-    /* background-color: red; */
+    width: 300px;
+    height: 300px;
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -286,7 +532,6 @@ footer {
     background-image: url("../img/franklinandme_large.jpg");
     width: 300px;
     height: 375px;
-    /* background-color: red; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
@@ -295,10 +540,10 @@ footer {
     background-image: url("../img/green_blanket_large.jpg");
     width: 300px;
     height: 381px;
-    /* background-color: red; */
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
+  }
 }
 
 /* Bootstrap CSS for forms from Bootstrap link reference signin.css */
@@ -309,11 +554,9 @@ footer {
   padding: 15px;
   margin: auto;
 }
-
 .form-signin .checkbox {
   font-weight: 400;
 }
-
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
@@ -321,23 +564,19 @@ footer {
   padding: 10px;
   font-size: 16px;
 }
-
 .form-signin .form-control:focus {
   z-index: 2;
 }
-
 .form-signin input[type="userName"] {
   margin-bottom: 10px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-
 .form-signin input[type="password"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
 .form-signin input[type="email"] {
   margin-bottom: 10px;
   border-bottom-right-radius: 0;

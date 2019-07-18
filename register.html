@@ -73,20 +73,20 @@
                     <p><strong>Join all the crafting fun that everyone is talking about!</strong></p>
 
                     <label for="userName"><strong>Who are you?</strong> Choose User Name (8-20 characters): </label>
-                    <input type="text" id="userName" class="form-control" placeholder="User Name" required autofocus>
+                    <input type="text" id="userName" name="userName" class="form-control" placeholder="User Name" required autofocus>
                     <br />
 
                     <label for="inputPassword">Password: </label>
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required>
                     <br />
 
                     <label for="inputConfirmPassword">Confirm Password: </label>
-                    <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password"
+                    <input type="password" id="inputConfirmPassword" name="inputConfirmPassword" class="form-control" placeholder="Password"
                         required>
                     <br />
 
                     <label for="inputEmail">Email address: </label>
-                    <input type="email" id="inputEmail" class="form-control" placeholder="name@email.com" required>
+                    <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="name@email.com" required>
                     <br />
 
                     <div class="checkbox mb-3">
@@ -97,19 +97,19 @@
 
                     <h4>Preferred Crafts</h4>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" name="defaultCheck1">
                         <label class="form-check-label" for="defaultCheck1">
                             Knitting
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" name="defaultCheck2">
                         <label class="form-check-label" for="defaultCheck2">
                             Crocheting
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" name="defaultCheck3">
                         <label class="form-check-label" for="defaultCheck3">
                             Other:
                         </label>
@@ -130,8 +130,8 @@
 
                     <div id="buttongroup" class="container">
                         <br />
-                        <a href="index.html" role="button" class="btn btn-lg btn-light btn-sm">Cancel</a>
-                        <a href="patterns.html" role="button" class="btn btn-lg btn-primary btn-sm">Submit</a>
+                        <button class="btn btn-sm btn-purple" type="submit">Submit</button>
+                        <button class="btn btn-sm btn-light" type="reset">Reset</button>
                         <br />
                     </div>
                 </form>
