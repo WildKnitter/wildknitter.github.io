@@ -1,0 +1,195 @@
+/* This is an additional stylesheet site*/
+
+
+/* Stylesheet code from the Bootstrap Jumbotron template */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* Color and bottom padding change for the Jumbotron section */
+
+.jumbotron {
+    padding: 3.5rem 1rem 1rem;
+    margin-bottom: 4rem;
+    background-color: rgb(131, 179, 145);
+    border-radius: 0.3rem;
+    height: 400px;
+}
+
+
+/* Formatting for the Header */
+
+header {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(199, 219, 205);
+    height: 100%;
+}
+
+
+/* Formatting for the Footer */
+
+footer {
+    clear: left;
+    border-top: thin solid navy;
+    text-align: right;
+}
+
+
+/* Change button color */
+
+.btn-greenish {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(131, 179, 145);
+    border-color: rgb(131, 179, 145);
+}
+
+#btnAll {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(131, 179, 145);
+    border-color: rgb(131, 179, 145);
+}
+
+
+/* Fix links so that they are underlined when one hovers over them */
+
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: underline;
+}
+
+.imageGroup {
+    padding: 10px;
+}
+
+#errorMsg {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Extra-Small devices (landscape phones, 576px and down) */
+
+@media (max-width: 576px) {
+    #imgwilley {
+        background-image: url("../images/willey_storyimg_small.jpg");
+        width: 335px;
+        height: 220px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #imglincoln {
+        background-image: url("../images/lincoln_small.jpg");
+        width: 300px;
+        height: 164px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    #imgwilley {
+        background-image: url("../images/willey_storyimg_medium.jpg");
+        width: 335px;
+        height: 220px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #imglincoln {
+        background-image: url("../images/lincoln_medium.jpg");
+        width: 500px;
+        height: 273px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #imgwilley {
+        background-image: url("../images/willey_storyimg.jpg");
+        width: 335px;
+        height: 220px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #imglincoln {
+        background-image: url("../images/lincoln_medium.jpg");
+        width: 500px;
+        height: 273px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    #imgwilley {
+        background-image: url("../images/willey_storyimg.jpg");
+        width: 335px;
+        height: 220px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #imglincoln {
+        background-image: url("../images/lincoln_medium.jpg");
+        width: 500px;
+        height: 273px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    #imgwilley {
+        background-image: url("../images/willey_storyimg.jpg");
+        width: 335px;
+        height: 220px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #imglincoln {
+        background-image: url("../images/lincoln_medium.jpg");
+        width: 500px;
+        height: 273px;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

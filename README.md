@@ -1,22 +1,25 @@
-# Site Name and URL
-- WildKnitter
-- www.wildknitter.com
+# EnjoyTheOutdoors
+Our third Friday Project! A site to search for national parks.
 
 # Purpose and goals of this site
-- To sell my knitting and crocheting patterns
-- To provide useful hints and tips for knitters and crocheters.
-- To blog about my daily knitting and crocheting life
+- To give information about:
+- National Parks
+- Mountains
 
 # Primary Audience
-- Knitters young and old!  
-- #### What do they want from my site?
-- They want to buy my knitting and crocheting patterns.
-- They want to search for hints and tips that will be useful to them.
-- They want to have a good laugh reading my blog about my entertaining life - knitting and crocheting.
+- Prospective Visitors  
+- ## What do they want from my site?
+- Search national parks by location
+- Search national parks by park type
+- Search for mountains 
+- Get back information in a convenient one-page format
 
 # Secondary Audience
-- Crocheters young and old…my site will embrace diversity!  
-- #### What do they want from my site?
-- They want to buy my knitting and crocheting patterns.
-- They want to search for hints and tips that will be useful to them.
-- They want to have a good laugh reading my blog about my entertaining life - knitting and crocheting.
+- Existing Customers  
+- ## What do they want from my site?
+- Search national parks by location
+- Search national parks by park type
+- Search for mountains
+- Get back information in a convenient one-page format
+
+
