@@ -35,15 +35,17 @@ window.onload = function() {
                 mountainChoice.appendChild(element);
             }
 
-            const btnMountain = document.getElementById("btnMountain");
-            btnMountain.onclick = createmountainTable;
+            //            const btnMountain = document.getElementById("btnMountain");
+            //            btnMountain.onclick = createmountainTable;
+
+            mountainChoice.onchange = createmountainTable;
 
             //This function dynamically creates the mountain table, according to the dropdown selection.
             function createmountainTable() {
                 let mountainChoice = document.getElementById("mountainChoice").selectedIndex;
                 // to select option from a specific dropdown, in this instance mountainChoice.
                 let chosenMountain = document.getElementById("mountainChoice").options[mountainChoice].value;
-                let table = document.getElementById("mountains");
+                let table = document.getElementById("tableBodyMountain");
                 table.innerHTML = "";
 
                 for (let i = 0; i < objs.mountains.length; i++) {

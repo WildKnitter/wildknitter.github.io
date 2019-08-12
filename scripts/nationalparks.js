@@ -64,10 +64,15 @@ window.onload = function() {
             }
         )
         //buttons
-    const btnLocation = document.getElementById("btnLocation");
-    btnLocation.onclick = createLocationTable;
-    const btnParkType = document.getElementById("btnParkType");
-    btnParkType.onclick = createParkTypeTable;
+        //const btnLocation = document.getElementById("btnLocation");
+        //btnLocation.onclick = createLocationTable;
+        //const btnParkType = document.getElementById("btnParkType");
+        //btnParkType.onclick = createParkTypeTable;
+    locationChoice.onchange = createLocationTable;
+    //createLocationTable();
+    parkTypeChoice.onchange = createParkTypeTable;
+    //createParkTypeTable();
+
     const btnAll = document.getElementById("btnAll");
     btnAll.onclick = createAllTable;
 
@@ -76,7 +81,7 @@ window.onload = function() {
         let locationChoice = document.getElementById("locationChoice").selectedIndex;
         // to select option from a specific dropdown, in this instance locationChoice.
         let chosenLocation = document.getElementById("locationChoice").options[locationChoice].value;
-        let table = document.getElementById("locations");
+        let table = document.getElementById("tableHeadParkLocation");
         table.innerHTML = "";
         let row = table.insertRow(table.rows.length);
         let cell1 = row.insertCell(0);
@@ -98,6 +103,8 @@ window.onload = function() {
         let cell9 = row.insertCell(8);
         cell9.innerHTML = "Longitude";
         table.appendChild(row);
+        table = document.getElementById("tableBodyParkLocation");
+        table.innerHTML = "";
         for (let i = 0; i < objs.parks.length; i++) {
             if (chosenLocation == objs.parks[i].State) {
                 let row = table.insertRow(table.rows.length);
@@ -137,7 +144,7 @@ window.onload = function() {
         let parkTypeChoice = document.getElementById("parkTypeChoice").selectedIndex;
         // to select option from a specific dropdown, in this instance parkTypeChoice.
         let chosenParkType = document.getElementById("parkTypeChoice").options[parkTypeChoice].value;
-        let table = document.getElementById("parkTypes");
+        let table = document.getElementById("tableHeadParkType");
         table.innerHTML = "";
         let row = table.insertRow(table.rows.length);
         let cell1 = row.insertCell(0);
@@ -159,6 +166,8 @@ window.onload = function() {
         let cell9 = row.insertCell(8);
         cell9.innerHTML = "Longitude";
         table.appendChild(row);
+        table = document.getElementById("tableBodyParkType");
+        table.innerHTML = "";
         for (let i = 0; i < objs.parks.length; i++) {
             if (objs.parks[i].LocationName.search(chosenParkType) != -1) {
                 let row = table.insertRow(table.rows.length);
@@ -195,7 +204,7 @@ window.onload = function() {
 
     // Function to create a table for ALL the National Parks.
     function createAllTable() {
-        let table = document.getElementById("parkAll");
+        let table = document.getElementById("tableHeadParkType");
         table.innerHTML = "";
         let row = table.insertRow(table.rows.length);
         let cell1 = row.insertCell(0);
@@ -217,6 +226,8 @@ window.onload = function() {
         let cell9 = row.insertCell(8);
         cell9.innerHTML = "Longitude";
         table.appendChild(row);
+        table = document.getElementById("tableBodyParkType");
+        table.innerHTML = "";
         for (let i = 0; i < objs.parks.length; i++) {
             let row = table.insertRow(table.rows.length);
             let cell1 = row.insertCell(0);
